@@ -1,0 +1,12 @@
+Slayer-Language/
+├── source_texts/             # beliebige deutsche Texte (.txt)
+├── blocks/                   # erzeugte block_001.txt bis block_999.txt
+├── audio/                    # TTS-WAV-Dateien zu Tokens
+├── lexicon.json              # zentrales Tokenlexikon
+├── lexicon_styled.json       # stilisierte Flüsterversion
+├── blockify.py               # zerlegt Texte in Blöcke
+├── main.py                   # verarbeitet Blocks → Lexikon & Audio
+├── whisper_style.py          # stilisiert Phonetik (hauchend, lispelnd)
+├── api.py                    # REST-API mit FastAPI
+├── build_package.py          # ZIP & PDF Export
+└── README.md                 # Projektdokumentation
