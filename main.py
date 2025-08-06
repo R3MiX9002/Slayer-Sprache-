@@ -3,7 +3,7 @@ from pathlib import Path
 from google.cloud import texttospeech
 from epitran import Epitran
 
-ROOT         = Path(".")
+ROOT         = Path("cp mkdir storage/emulated/0/Dokumente")
 BLOCKS_DIR   = ROOT / "blocks"
 AUDIO_DIR    = ROOT / "audio"
 LEXICON_FILE = ROOT / "lexicon.json"
