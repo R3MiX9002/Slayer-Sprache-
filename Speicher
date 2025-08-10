@@ -2,6 +2,16 @@
 terraform init
 terraform apply -auto-approve
 
+# variables.tf
+variable "aws_region" {
+  description = "AWS Region"
+  default     = "eu-central-1"
+}
+
+variable "ami_id" {
+  description = "AMI-ID für Ubuntu 22.04 in eu-central-1"
+  default     = "ami-0a63f3c6658de2a75"
+}
 # main.tf
 provider "aws" {
   region = var.aws_region
